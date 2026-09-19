@@ -2460,3 +2460,46 @@ img {
         opacity: 0;
     }
 }
+
+.contact-card-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.contact-btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.whatsapp-btn-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.whatsapp-btn-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+/* صور قسم الخدمات - محاذاة موحدة */
+.service-image {
+    width: calc(100% + 40px);
+    height: 180px;
+    margin: -30px -20px 25px;
+    overflow: hidden;
+    position: relative;
+    background: #eee;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
