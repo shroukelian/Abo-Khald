@@ -249,10 +249,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    /* =========================================
-       Gallery Image Error Handler
-    ========================================= */
-
     document.querySelectorAll("img").forEach(image => {
 
         image.addEventListener("error", () => {

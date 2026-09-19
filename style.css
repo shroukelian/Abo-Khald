@@ -2486,7 +2486,6 @@ img {
     height: 100%;
     fill: currentColor;
 }
-/* صور قسم الخدمات - محاذاة موحدة */
 .service-image {
     width: calc(100% + 40px);
     height: 180px;
